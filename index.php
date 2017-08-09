@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
-    <script type="text/javascript" src="../js/lib/jquery/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="js/lib/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
