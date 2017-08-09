@@ -1,2 +1,3 @@
 .idea
-/model/DBInfo.php
+DBInfo.php
+.DS_Store
