@@ -29,11 +29,11 @@ class DBInfo
         if (DBInfo::$instance == null) {
             $dbInfo = new DBInfo();
 
-            $dbInfo->ms = "mysql";
-            $dbInfo->host = "118.193.223.117";
-            $dbInfo->name = "qefee_share";
-            $dbInfo->user = "sa";
-            $dbInfo->password = "055Js220sa";
+            $dbInfo->ms = "-";
+            $dbInfo->host = "-";
+            $dbInfo->name = "-";
+            $dbInfo->user = "-";
+            $dbInfo->password = "-";
             $dbInfo->dsn = "$dbInfo->ms:host=$dbInfo->host;dbname=$dbInfo->name";
 
             return $dbInfo;
