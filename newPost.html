@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New post</title>
+</head>
+<body>
+
+<ul>
+    <li><a href="index.php">index</a></li>
+    <li><a href="newPost.html">new post</a></li>
+</ul>
+
+<form action="newPost.php" method="post">
+    <div>
+        <input name="title" placeholder="title"/>
+    </div>
+    <div>
+        <textarea name="content" placeholder="content"></textarea>
+    </div>
+    <div>
+        <input name="from" placeholder="from"/>
+    </div>
+    <div>
+        type:
+        <select name="type" title="type">
+            <option value="url">url</option>
+            <option value="text">text</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="submit">
+    </div>
+</form>
+
+</body>
+</html>

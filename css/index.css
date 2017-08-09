@@ -1,0 +1,29 @@
+.post {
+    padding: 5px;
+    margin: 5px;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
+    border-top: 1px solid cornflowerblue;
+}
+
+.post.odd {
+    /*background-color: aliceblue;*/
+}
+
+.post.even {
+    /*background-color: floralwhite;*/
+}
+
+.postIndex {
+    color: blueviolet;
+    width: 80px;
+}
+
+.navigation {
+    background-color: lightcyan;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
