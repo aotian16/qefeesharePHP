@@ -94,6 +94,16 @@ str;
                                        target="_blank">【<?php echo $row["from"]; ?>
                         】&nbsp;&nbsp;<?php echo $row["title"]; ?></a></span>
                 <?php
+            } else if ($row["type"] == "image") {
+                ?>
+                <span class="title">【<?php echo $row["from"]; ?>】&nbsp;&nbsp;<?php echo $row["title"]; ?></span>
+                <div class="content">
+                    <a href="<?php echo $row["content"]; ?>" target="_blank">
+                        <img src="<?php echo $row["content"]; ?>" width="50">
+                    </a>
+                </div>
+
+                <?php
             } else {
                 ?>
 
